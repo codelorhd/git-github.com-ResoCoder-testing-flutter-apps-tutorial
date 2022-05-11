@@ -4,8 +4,12 @@ import 'package:flutter_testing_tutorial/news_change_notifier.dart';
 import 'package:flutter_testing_tutorial/news_service.dart';
 import 'package:mocktail/mocktail.dart';
 
+// ** This is a Unit Test
+
 class MockNewsService extends Mock implements NewsService {}
 
+// !! remember to use the t_scaffold VS Code snippet to generate this.
+// !!! and aaaTest
 void main() {
   late NewsChangeNotifier sut; // system under test
   late MockNewsService mockNewsService;
@@ -29,9 +33,9 @@ void main() {
 
   group('getArticles', () {
     final articlesFromService = [
-      Article(title: 'Test 1', content: 'Test 1'),
-      Article(title: 'Test 2', content: 'Test 2'),
-      Article(title: 'Test 3', content: 'Test 3'),
+      Article(title: 'Test 1', content: 'Test 1 Content'),
+      Article(title: 'Test 2', content: 'Test 2 Content'),
+      Article(title: 'Test 3', content: 'Test 3 Content'),
     ];
 
     void arrangeNewsServiceReturns3Articles() {
