@@ -1,6 +1,7 @@
 // ** This is the Widget Test!!
 // ** Easy to Write and Run!
 // ** You do not see any interaction though!!!
+// ** Less Expensive than the Integration Test
 
 // !! widgets do not rebuilt automatically, you need to instruct it to do it manually!
 
