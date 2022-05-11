@@ -1,1 +1,1 @@
-# git-github.com-ResoCoder-testing-flutter-apps-tutorial
+testing-flutter-apps-tutorial
